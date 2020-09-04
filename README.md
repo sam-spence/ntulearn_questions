@@ -86,7 +86,7 @@ The output tab-delimited file will be created in the same folder as the input, w
 
 _The long version:_
 
-Install python 3 from [link](https://www.python.org/downloads/).
+Install python 3 from [the python website](https://www.python.org/downloads/).
 
 Windows:
 
