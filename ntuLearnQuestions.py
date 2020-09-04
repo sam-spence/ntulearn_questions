@@ -87,8 +87,6 @@ def parseTextQuestion(problem): # Take text string of a question and return a ts
 		questionText = re.search(r'^ORD(?:\d+)?\.?([\s\S]*?)(?=>>)', problem).group(1) # Text describing the problem
 		question = questionText.replace('\n', ' ')
 		question = question.strip()
-		print(question)
-		print('"' in question)
 		answerTexts = re.findall(r'^>>[^\n]+', problem, re.M) # The answers in the correct order ['>> A', '>> B', '>> C']
 		answers = [answer.strip('>>').strip() for answer in answerTexts]
 		tsvRow = ['ORD', question]
