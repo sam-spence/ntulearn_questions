@@ -32,10 +32,15 @@ Write your questions in Word and save as a UTF-8 .txt file (not .docx). You just
 Examples:
 
 %%MC1 Which fruit smells bad?
+
 @@A apple
+
 @@B banana
+
 @@C cherry
+
 @@D durian
+
 >> D
 \## Multiple choice. Just give the one correct answer after the >> ##
 
