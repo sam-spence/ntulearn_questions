@@ -82,7 +82,7 @@ _The short version:_
 
 The output tab-delimited file will be created in the same folder as the input, with the same name, ending with \_tab_format.txt.
 
-
+  
 
 _The long version:_
 
