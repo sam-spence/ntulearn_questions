@@ -85,10 +85,25 @@ The output tab-delimited file will be created in the same folder as the input, w
 
 _The long version:_
 
-Install python 3 from [the python website](https://www.python.org/downloads/).
+- Install python 3 from [the python website](https://www.python.org/downloads/).
+- Download ntuLearnQuestions.py from this github and put it wherever you like.
 
 Windows:
 
 
-Mac and Linux:
 
+Mac:
+
+- Add ntuLearnQuestions.py folder to your PATH.
+  - Open ~/.bash_profile
+  - Add a new line and save:
+  ```
+  export PATH=${PATH}:<location of program file>
+  ```
+- Find your assignment questions .txt file in Finder.
+- Right click the folder where the questions are, and click 'New Terminal Tab At Folder'.
+- Run the program to convert to tab-delimited:
+```
+ntuLearnQuestions.py <name of questions file>
+```
+- Upload to NTULearn and then make any adjustments you want.
