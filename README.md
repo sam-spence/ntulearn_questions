@@ -89,13 +89,19 @@ _The long version:_
 - Download ntuLearnQuestions.py from this github and put it wherever you like.
 
 Windows:
-
+- Setup
+  - Add ntuLearnQuestions.py folder to your PATH.
+    - Open the Start Search, type in “env”, and choose “Edit the system environment variables”.
+    - Click the “Environment Variables…” button.
+    - Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+    - The “Edit environment variable” UI will appear. Here, you can click “New” and type in the path to the folder where you put the ntuLearnQuestions.py file.
+- Run
 
 
 Mac:
 
 - Add ntuLearnQuestions.py folder to your PATH.
-  - Open ~/.bash_profile
+  - Open ~/.bash_profile. It's a hidden text file in your home directory (where your Documents folder is).
   - Add a new line and save:
   ```
   export PATH=${PATH}:<location of program file>
