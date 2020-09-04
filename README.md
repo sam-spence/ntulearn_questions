@@ -87,7 +87,7 @@ _The long version:_
 
 - Install python 3 from [the python website](https://www.python.org/downloads/).
 - Download ntuLearnQuestions.py from this github and put it wherever you like.
-- Follow the set-up instructions below to get the program working, then skip to **Run the program# each time you want to use it.**
+- Follow the set-up instructions below to get the program working, then skip to **Run the program** each time you want to use it.
 
 Windows 10:
 - Set up the program: add ntuLearnQuestions.py folder to your PATH.
