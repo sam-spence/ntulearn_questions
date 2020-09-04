@@ -25,7 +25,7 @@ It will not yet do:
 Write your questions in Word and save as a UTF-8 .txt file (not .docx). You just need to add some codes to the questions for the program to recognise the questions and answers.
 
 \%\% The question should start with double percent signs. After the %%, put the type of question, e.g. %%MC1 for multiple choice. The question number is optional.  
-\@\@ Each option that can be picked should start with doulbe at signs.  
+\@\@ Each option that can be picked should start with double at signs.  
 \>\> The correct answer(s) should start with double greater than signs.  
 \#\# Any comments on the question, e.g. how to work out the answer, should be surrounded by double hashes. Comments won't be included in the output. ##
 
