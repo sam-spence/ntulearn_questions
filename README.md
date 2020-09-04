@@ -76,14 +76,17 @@ Examples:
 
 # Using the program #
 
-The short version:
+_The short version:_
 
 ```ntuLearnQuestions.py <input file path>```
 
 The output tab-delimited file will be created in the same folder as the input, with the same name, ending with \_tab_format.txt.
 
 
-The long version:
+
+_The long version:_
+
+Install python 3 from [link](https://www.python.org/downloads/).
 
 Windows:
 
