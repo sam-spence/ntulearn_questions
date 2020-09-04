@@ -87,6 +87,7 @@ _The long version:_
 
 - Install python 3 from [the python website](https://www.python.org/downloads/).
 - Download ntuLearnQuestions.py from this github and put it wherever you like.
+- Follow the set-up instructions below to get the program working, then skip to #Run the program# each time you want to use it.
 
 Windows 10:
 - Set up the program: add ntuLearnQuestions.py folder to your PATH.
@@ -98,7 +99,7 @@ Windows 10:
 - Run the program to convert to tab-delimited:
   - Open File Explorer and go to the folder containing the questions text file.
   - Now click on the address bar at the top of File Explorer, type CMD, and hit enter to open a terminal window.
-  - Run the program using the command:
+  - #Run the program using the command:#
   ```
   ntuLearnQuestions.py <name of questions file>
   ```
@@ -116,7 +117,7 @@ Mac:
 - Run the program to convert to tab-delimited:
   - Find your assignment questions .txt file in Finder.
   - Right click the folder where the questions are, and click 'New Terminal Tab At Folder'.
-  - Run the program using the command:
+  - #Run the program using the command:#
   ```
   ntuLearnQuestions.py <name of questions file>
   ```
