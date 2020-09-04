@@ -31,7 +31,8 @@ Write your questions in Word and save as a UTF-8 .txt file (not .docx). You just
 
 Examples:
 
-```%%MC1 Which fruit smells bad?
+```
+%%MC1 Which fruit smells bad?
 @@A apple
 @@B banana
 @@C cherry
@@ -69,7 +70,8 @@ Examples:
 >> elegant
 @@ durian
 >> abhorrent
-## Matching. Give each option with its corresponding answer underneath. They will be scrambled by NTULearn. ##```
+## Matching. Give each option with its corresponding answer underneath. They will be scrambled by NTULearn. ##
+```
 
 
 # Using the program #
