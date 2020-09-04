@@ -3,12 +3,12 @@ Convert quiz questions from text to tab-delimited format for NTULearn.
 If you like to write your NTULearn questions in Word, and then you copy-paste them 1,000 times into Excel to get a tab-delimited file, then stop doing that. Use this program instead.
 
 The current version will handle these question types:
-- MC Multiple choice
-- MA Multiple answer
-- TF True or false
-- SR Short response
-- ORD Ordering
-- MAT Matching
+- MC multiple choice
+- MA multiple answer
+- TF true or false
+- SR short response
+- ORD ordering
+- MAT matching
 
 It will not yet do:
 - Fill in the blank
