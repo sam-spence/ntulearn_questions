@@ -88,28 +88,36 @@ _The long version:_
 - Install python 3 from [the python website](https://www.python.org/downloads/).
 - Download ntuLearnQuestions.py from this github and put it wherever you like.
 
-Windows:
-- Setup
-  - Add ntuLearnQuestions.py folder to your PATH.
-    - Open the Start Search, type in “env”, and choose “Edit the system environment variables”.
-    - Click the “Environment Variables…” button.
-    - Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
-    - The “Edit environment variable” UI will appear. Here, you can click “New” and type in the path to the folder where you put the ntuLearnQuestions.py file.
-- Run
+Windows 10:
+- Set up the program: add ntuLearnQuestions.py folder to your PATH.
+  - Open the Start Search, type in “env”, and choose “Edit the system environment variables”.
+  - Click the “Environment Variables…” button.
+  - Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+  - The “Edit environment variable” UI will appear. Here, you can click “New” and type in the path to the folder where you put the ntuLearnQuestions.py file.
+  - Close all the windows you just opened with 'Ok'.
+- Run the program to convert to tab-delimited:
+  - Open File Explorer and go to the folder containing the questions text file.
+  - Now click on the address bar at the top of File Explorer, type CMD, and hit enter to open a terminal window.
+  - Run the program using the command:
+  ```
+  ntuLearnQuestions.py <name of questions file>
+  ```
+- Upload the tab-formatted questions file to NTULearn and then make any adjustments you want.
 
-
+<br/>
 Mac:
 
-- Add ntuLearnQuestions.py folder to your PATH.
+- Set up the program: Add ntuLearnQuestions.py folder to your PATH.
   - Open ~/.bash_profile. It's a hidden text file in your home directory (where your Documents folder is).
-  - Add a new line and save:
+  - Add a new line and save the file:
   ```
   export PATH=${PATH}:<location of program file>
   ```
-- Find your assignment questions .txt file in Finder.
-- Right click the folder where the questions are, and click 'New Terminal Tab At Folder'.
 - Run the program to convert to tab-delimited:
-```
-ntuLearnQuestions.py <name of questions file>
-```
-- Upload to NTULearn and then make any adjustments you want.
+  - Find your assignment questions .txt file in Finder.
+  - Right click the folder where the questions are, and click 'New Terminal Tab At Folder'.
+  - Run the program using the command:
+  ```
+  ntuLearnQuestions.py <name of questions file>
+  ```
+- Upload the tab-formatted questions file to NTULearn and then make any adjustments you want.
