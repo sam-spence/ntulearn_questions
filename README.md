@@ -36,7 +36,6 @@ Examples:
 @@B banana
 @@C cherry
 @@D durian
-
 \>> D
 \## Multiple choice. Just give the one correct answer after the >> \##
 
