@@ -24,52 +24,52 @@ It will not yet do:
 
 Write your questions in Word and save as a UTF-8 .txt file (not .docx). You just need to add some codes to the questions for the program to recognise the questions and answers.
 
-%% The question should start with double percent signs. After the %%, put the type of question, e.g. %%MC1 for multiple choice. The question number is optional.
-@@ Each option that can be picked should start with doulbe at signs.
-\>> The correct answer(s) should start with double greater than signs.
-\## Any comments on the question, e.g. how to work out the answer, should be surrounded by double hashes. Comments won't be included in the output. ##
+\%\% The question should start with double percent signs. After the %%, put the type of question, e.g. %%MC1 for multiple choice. The question number is optional.
+\@\@ Each option that can be picked should start with doulbe at signs.
+\>\> The correct answer(s) should start with double greater than signs.
+\#\# Any comments on the question, e.g. how to work out the answer, should be surrounded by double hashes. Comments won't be included in the output. ##
 
 Examples:
 
-%%MC1 Which fruit smells bad?
-@@A apple
-@@B banana
-@@C cherry
-@@D durian
-\>> D
-\## Multiple choice. Just give the one correct answer after the >> \##
+\%\%MC1 Which fruit smells bad?
+\@\@A apple
+\@\@B banana
+\@\@C cherry
+\@\@D durian
+\>\> D
+\#\# Multiple choice. Just give the one correct answer after the >> \##
 
-%%MA2 Which fruits are edible?
-@@A apple
-@@B banana
-@@C cherry
-@@D durian
-\>> A
-\>> B
-\>> C
-\## Multiple answer. Give all the correct answers, each with a >> ##
+\%\%MA2 Which fruits are edible?
+\@\@A apple
+\@\@B banana
+\@\@C cherry
+\@\@D durian
+\>\> A
+\>\> B
+\>\> C
+\#\# Multiple answer. Give all the correct answers, each with a >> ##
 
-%%TF3 Durian is safe to eat.
-\>> False
-\## True or false. Just give true or false after >> ##
+\%\%TF3 Durian is safe to eat.
+\>\> False
+\#\# True or false. Just give true or false after >> ##
 
-%%SR4 Write a short response descrbing the aroma of durian.
-\## Short response. No >> answers needed, just give the question. ##
+\%\%SR4 Write a short response descrbing the aroma of durian.
+\#\# Short response. No >> answers needed, just give the question. ##
 
-%%ORD5 Arrange the durians from smallest to biggest.
+\%\%ORD5 Arrange the durians from smallest to biggest.
 \>\> 10cm
 \>\> 20cm
 \>\> 30cm
-\## Ordering. Give all answers in the correct order. They will be randomised by NTULearn. ##
+\#\# Ordering. Give all answers in the correct order. They will be randomised by NTULearn. ##
 
-%%MAT6 Match the fruit to the adjective that describes its taste.
-@@ apple
-\>> refreshing
-@@ cherry
-\>> elegant
-@@ durian
-\>> abhorrent
-\## Matching. Give each option with its corresponding answer underneath. They will be scrambled by NTULearn. ##
+\%\%MAT6 Match the fruit to the adjective that describes its taste.
+\@\@ apple
+\>\> refreshing
+\@\@ cherry
+\>\> elegant
+\@\@ durian
+\>\> abhorrent
+\#\# Matching. Give each option with its corresponding answer underneath. They will be scrambled by NTULearn. ##
 
 
 # Using the program #
